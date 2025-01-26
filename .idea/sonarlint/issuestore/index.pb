@@ -9,3 +9,5 @@ S
 #contracts/recycling-incentives.clar,d/b/dbaafba93a80a02d94b2215e6af408efe9adf913
 R
 "tests/recycling-incentives.test.ts,f/9/f9aa2134703ed495931d4b85449cb8c460532574
+P
+ contracts/material-exchange.clar,7/9/79ca9837437d2f3804956c915807373132c648d9
