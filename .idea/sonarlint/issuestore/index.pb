@@ -7,3 +7,5 @@ O
 tests/product-lifecycle.test.ts,e/e/ee7566aced17ac1d2087e27776fea5c38fa444b4
 S
 #contracts/recycling-incentives.clar,d/b/dbaafba93a80a02d94b2215e6af408efe9adf913
+R
+"tests/recycling-incentives.test.ts,f/9/f9aa2134703ed495931d4b85449cb8c460532574
