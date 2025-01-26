@@ -1,6 +1,6 @@
 ;; Product Lifecycle Contract
 
-(define-non-fungible-token product uint)
+(define-non-fungible-token product-nft uint)
 
 (define-map product-info
   { product-id: uint }
@@ -21,7 +21,7 @@
   (materials (list 10 (string-ascii 20))))
   (let
     ((new-id (+ (var-get product-nonce) u1)))
-    (try! (nft-mint? product new-id tx-sender))
+    (try! (nft-mint? product-nft new-id tx-sender))
     (map-set product-info
       { product-id: new-id }
       {
@@ -42,7 +42,7 @@
   (let
     ((product (unwrap! (map-get? product-info { product-id: product-id }) (err u404))))
     (asserts! (is-eq tx-sender (get current-owner product)) (err u403))
-    (try! (nft-transfer? product product-id tx-sender new-owner))
+    (try! (nft-transfer? product-nft product-id tx-sender new-owner))
     (map-set product-info
       { product-id: product-id }
       (merge product { current-owner: new-owner })
