@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/product-lifecycle.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.recycling-incentives]
+path = 'contracts/recycling-incentives.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
