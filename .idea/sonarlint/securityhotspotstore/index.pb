@@ -11,3 +11,5 @@ R
 "tests/recycling-incentives.test.ts,f/9/f9aa2134703ed495931d4b85449cb8c460532574
 P
  contracts/material-exchange.clar,7/9/79ca9837437d2f3804956c915807373132c648d9
+O
+tests/material-exchange.test.ts,6/5/65c3f8e66adf9ae99dcf19cdc372ecd6156241e1
